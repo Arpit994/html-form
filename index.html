@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      body{
+        margin: 0;
+        height: 100vh;
+        min-height: min-content;
+        padding: 16px;
+        display: grid;
+        place-items: center;
+        font-family: poppins;
+        color: #fff;
+      }
+      form{
+        background: linear-gradient(to right, #1d2671, #c33764);
+        border: 1px solid #ccc;
+        box-shadow: 0 0 4px #ccc;
+        padding: 42px 32px;
+      }
+      form h1{
+        margin: 0 0 -16px 0;
+        text-align: center;
+      }
+      .form-group{
+        display: flex;
+        margin-bottom: 16px;
+      }
+      form input, form textarea{
+        padding: 12px;
+        flex: 1;
+      }
+      form ::placeholder{
+        font-family: poppins;
+      }
+      form button{
+        width: 100%;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+        font-weight: 600;
+        padding: 11px;
+        font-family: poppins;
+        border-radius: 2px;
+        background: linear-gradient(to right, #ffd200, #f7971e);
+      }
+  </style>
+</head>
+<body>
+     <!-- Contact Form In Html & Css -->
+     <form action="">
+        <h1>Contact Us</h1>
+        <p>Feel Free To Send Message to us !</p>
+        <div class="form-group">
+            <input type="text" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+            <input type="number" placeholder="Your Mobile">
+        </div>
+        <div class="form-group">
+             <textarea name="" id="" cols="30" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <div>
+          <button type="submit">SEND MESSAGE</button>
+        </div>
+     </form>
+</body>
+</html>
